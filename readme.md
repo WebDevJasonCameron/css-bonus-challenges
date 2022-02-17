@@ -1,3 +1,9 @@
+# Lesson's Learned
+
+## 2022 02 17 | Review Contents
+Looking through this, I believe I will need to complete the lessons in our current curriculum.  This will be something to work on during the three-day weekends.
+
+---
 # CSS Bonus Challenges
 
 This repo contains various example UI's that may be used to practice HTML and CSS styling. The UI's are roughly grouped by level of complexity. No CSS frameworks should be used. Using CSS Grid, Flexbox, and SASS will be helpful but not required. For determining colors, if using a Mac, use the Digital Color Meter to determine the correct color. Again, no CSS frameworks should be used but building a custom grid system may be helpful. 
