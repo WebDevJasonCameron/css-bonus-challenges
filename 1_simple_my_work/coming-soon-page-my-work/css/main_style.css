@@ -1,0 +1,91 @@
+/* MAIN CSS:   COMING SOON PAGE (MY WORK)*/
+/*
+    Page Elements
+ */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 10px;
+    line-height: .8em;
+    color: #fff;
+    /*overflow: hidden;*/
+}
+
+main {
+    padding: 2em;
+    height: 100vh;
+    border-top: 100px solid #000000;
+    border-bottom: 100px solid #000000;
+
+    background-image: url("../img/forest.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-position: 50% 60%;
+    position: relative;
+}
+
+h1 {
+    font-size: 5em;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 2.5em;
+}
+
+a:active, a:link, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+hr {
+    margin: 5em 0 3em 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.59);
+    width: 15em;
+
+}
+
+small {
+    font-size: 1.5em;
+}
+
+/*
+    Sections
+*/
+
+header {
+
+    display: flex;
+    justify-content: flex-start;
+}
+
+section {
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*align-items: flex-end;*/
+
+    position: absolute;
+    bottom: 2em;
+    left: 2em;
+
+}
