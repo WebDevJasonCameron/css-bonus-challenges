@@ -1,0 +1,180 @@
+/* MAIN CSS:   GENERAL BUSINESS (MY WORK) */
+/*
+    Page Elements
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    line-height: .8;
+    color: #000000;
+    background-color: #000000;
+}
+
+main {
+    max-width: 100em;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4.5em;
+    font-weight: 400;
+}
+
+h2 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.6em;
+    font-weight: 400;
+}
+
+blockquote {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.6em;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.6em;
+}
+
+footer ul li {
+    font-size: 2em;
+    list-style: none;
+}
+
+footer small {
+    font-size: 1em;
+}
+
+.fa-solid {
+    font-size: 13em;
+    color: rgb(224, 75, 66);
+}
+
+/*
+    Sections
+*/
+
+header {
+    background-color: rgb(224, 75, 66);
+    height: 4.3em;
+    border-bottom: 1px solid #000000;
+    padding: 1em;
+
+    display: flex;
+}
+
+header a:active, header a:link, header a:visited {
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    font-size: 1.6em;
+    padding: 1em 1em;
+}
+
+header a:hover {
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+}
+
+#active-link {
+    color: #000000;
+    background-color: #ffffff;
+    border-bottom: 1px solid #000000;
+}
+
+section {
+    background-color: rgb(224, 75, 66);
+    height: 32em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section p {
+    font-size: 1.6em;
+    color: #ffffff;
+    margin-top: 2.5em;
+}
+
+section button {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 0.5em 1em;
+    border: none;
+    margin-top: 2.5em;
+}
+
+article {
+    height: 36em;
+    padding: 6em 12em;
+
+    display: flex;
+}
+
+.article-text {
+    max-width: 50em;
+}
+
+#first-article {
+    background-color: #ffffff;
+}
+
+#second-article {
+    background-color: rgb(241, 241, 241);
+}
+
+aside {
+    background-color: rgb(102, 102,	102);
+    color: #ffffff;
+    padding: 3em;
+    font-size: 2em;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 7em;
+}
+
+/*
+    Multi Use Section
+*/
+.article-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-text blockquote {
+    padding: 3em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
