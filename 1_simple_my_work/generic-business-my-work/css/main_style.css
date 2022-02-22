@@ -39,12 +39,12 @@ h2 {
 
 blockquote {
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.2em;
+    font-size: 1.4em;
     line-height: 1.6em;
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 1.6em;
 }
 
@@ -89,8 +89,7 @@ header nav a:hover {
 
     position: absolute;
     right: 1em;
-
-
+    visibility: hidden;
 }
 #active-link {
     color: #000000;
@@ -137,13 +136,16 @@ button:hover {
     Article Section     <-------------------
 */
 article {
-    height: 36em;
-    padding: 6em 12em;
+    min-height: 36em;
+    padding: 6em 12em 6em 2em;
 
     display: flex;
+    justify-content: right;
+    align-items: center;
 }
 .article-text {
-    max-width: 50em;
+    max-width: 60%;
+    margin-bottom: 2em;
 }
 #first-article {
     background-color: #ffffff;
@@ -151,8 +153,11 @@ article {
 #second-article {
     background-color: rgb(241, 241, 241);
 }
-.article-text blockquote {
+.article-text {
     padding: 3em 0;
+}
+q {
+    line-height: 1.5em;
 }
 article .article-icons {
     margin: 4em;
