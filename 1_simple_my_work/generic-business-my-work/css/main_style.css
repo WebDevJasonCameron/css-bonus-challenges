@@ -86,7 +86,7 @@ header nav a:hover {
     border-bottom: 1px solid #000000;
 }
 
-#burger-icon-button {
+#burger-icon-button{
     font-size: 2em;
     background-color: #ffffff;
     color: rgb(224, 75, 66);
@@ -98,6 +98,11 @@ header nav a:hover {
     right: 0;
     top: 0;
     visibility: hidden;
+}
+#burger-icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #active-link {
     color: #000000;

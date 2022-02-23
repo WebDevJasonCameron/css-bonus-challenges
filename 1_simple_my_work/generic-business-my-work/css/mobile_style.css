@@ -3,21 +3,15 @@
     /* Mobile Menu*/
     #burger-icon-button {
         visibility: visible;
-        background-color: #ffffff;
-        color: #000000;
-    }
-
-    #burger-icon-button {
         cursor: pointer;
-        background-color: #ffffff;
-        color: rgb(224, 75, 66);
+        background-color: rgb(224, 75, 66);
+        color: #ffffff;
     }
     #burger-icon-button:hover {
         cursor: pointer;
         background-color: #ffffff;
         color: #000000;
     }
-
     .main-nav {
         display: flex;
         flex-direction: column;

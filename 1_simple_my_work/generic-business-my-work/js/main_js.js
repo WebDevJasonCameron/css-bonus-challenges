@@ -58,21 +58,21 @@ document.getElementById('quoted-from').innerHTML = quoteOfTheDay.author;
  * Generate Burger Menu Function
  */
 // First Place element into JS var
-let burgerMenu = document.getElementById('burger-icon-button');
-let burgerIconButton = document.getElementById('burger-menu');
+let burgerMenu = document.getElementById('burger-menu');
+let burgerIconButton = document.getElementById('burger-icon-button');
 
 
 // Second, create toggle function
 function toggleMenu(){
     if(burgerMenu.style.visibility === 'hidden'){
         burgerMenu.style.visibility = 'visible';
-        burgerIconButton.style.backgroundColor = 'rgb(224, 75, 66)';
-        burgerIconButton.style.color = '#ffffff';
+        burgerIconButton.style.backgroundColor = '#ffffff';
+        burgerIconButton.style.color = 'rgb(224, 75, 66)';
         console.log('menu was hidden');
     } else {
         burgerMenu.style.visibility = 'hidden';
-        burgerIconButton.style.backgroundColor = '#ffffff';
-        burgerIconButton.style.color = 'rgb(224, 75, 66)';
+        burgerIconButton.style.backgroundColor = 'rgb(224, 75, 66)';
+        burgerIconButton.style.color = '#ffffff';
         console.log(('menu was visible'));
     }
     console.log('button clicked');

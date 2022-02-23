@@ -1,5 +1,10 @@
 # Lesson's Learned
 
+## 2022 02 23 | Morning Work
+
+
+---
+
 ## 2022 02 22 | Second 'Simple' Challenge
 This was very challenging.  I think I am about 90% completed with the project. Additional items included into this Ex were a JS Quote gen function.  This is placed in the aside tag.  The function uses a Math.random function and pulls from an array of objects (which hold a quote and author for every obj).  A var grabs an obj from the array and outputs the quote and author to the HTML tags.  Next, I think I need to do a JS function to call the mobile menu from the hamburger icon. I'll ask the instructor if this can be done strictly in CSS.
 
