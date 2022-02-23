@@ -73,7 +73,7 @@ header nav ul {
     display: flex;
     justify-content: flex-start;
 }
-header nav .burger-menu {
+header nav #burger-menu {
     display: flex;
 }
 header nav ul li {
@@ -86,15 +86,10 @@ header nav a:hover {
     border-bottom: 1px solid #000000;
 }
 
-/*.burger-menu-icon {*/
-/*    position: absolute;*/
-/*    right: 0px;*/
-/*    top: 0px;*/
-/*}*/
 #burger-icon-button {
     font-size: 2em;
-    background-color: rgb(224, 75, 66);
-    color: #ffffff;
+    background-color: #ffffff;
+    color: rgb(224, 75, 66);
     border: none;
     height: 2.1em;
     width: 2.1em;
