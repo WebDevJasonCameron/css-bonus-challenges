@@ -1,6 +1,14 @@
 # Lesson's Learned
 
-## 2022 02 23 | Morning Work
+## 2022 02 23 | YouTube
+Watched some videos.  I found a few things that might help with the JS HB. First, ```document.querySelector(".hamburger");``` might be easier to grab elements.  Second, I don't need to create a function to place it into an eventListener. I can use an anonymous function (arrow).  Here is an example:
+```javascript
+    hamburger.addEventListener("click", ()=> {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+})
+```
+Third, there is a method called ```.classList``` with several attributes that can be used.  This might be better than me trying the ```.getAttribute()```.  I will read the docs on the subject and then try to use it to finish this project.
 
 
 ---
