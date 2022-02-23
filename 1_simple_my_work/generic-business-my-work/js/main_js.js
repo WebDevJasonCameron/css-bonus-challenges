@@ -53,3 +53,34 @@ console.log(quoteOfTheDay)
 
 document.getElementById('quote-of-the-day').innerHTML = quoteOfTheDay.quote;
 document.getElementById('quoted-from').innerHTML = quoteOfTheDay.author;
+
+
+/**
+ * Generate Burger Menu Function
+ */
+// Button is: .burger-icon-button
+
+
+
+
+
+// Menu to be shown: .burger-menu
+// First Place element into JS var
+let burgerMenu = document.getElementById('burger-icon-button');
+
+
+function toggleMenu(){
+    if(burgerMenu.getAttribute('visibility') === hidden) {
+        burgerMenu.style.visibility = 'visible';
+    }
+}
+
+
+
+
+
+
+
+
+
+

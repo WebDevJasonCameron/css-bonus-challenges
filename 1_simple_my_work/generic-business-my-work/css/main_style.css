@@ -64,7 +64,7 @@ header {
 }
 header a:active, header a:link, header a:visited {
     color: #ffffff;
-    font-weight: 300;
+    font-weight: 400;
     text-decoration: none;
     font-size: 1.6em;
     padding: 1em 1em;
@@ -85,12 +85,23 @@ header nav a:hover {
     background-color: #ffffff;
     border-bottom: 1px solid #000000;
 }
-.burger-icon {
+
+/*.burger-menu-icon {*/
+/*    position: absolute;*/
+/*    right: 0px;*/
+/*    top: 0px;*/
+/*}*/
+#burger-icon-button {
     font-size: 2em;
+    background-color: rgb(224, 75, 66);
     color: #ffffff;
+    border: none;
+    height: 2.1em;
+    width: 2.1em;
 
     position: absolute;
-    right: 1em;
+    right: 0;
+    top: 0;
     visibility: hidden;
 }
 #active-link {
@@ -119,7 +130,7 @@ section p {
     margin-top: 2.5em;
 }
 
-button {
+.section-button {
     background-color: #000000;
     color: #ffffff;
     padding: 0.5em 1em;
@@ -127,7 +138,7 @@ button {
     margin-top: 2.5em;
 }
 
-button:hover {
+.section-button:hover {
     cursor: pointer;
     background-color: rgb(182, 180, 180);
     color: #000000;

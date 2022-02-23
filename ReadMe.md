@@ -1,5 +1,14 @@
 # Lesson's Learned
 
+## 2022 02 22 | Second 'Simple' Challenge
+This was very challenging.  I think I am about 90% completed with the project. Additional items included into this Ex were a JS Quote gen function.  This is placed in the aside tag.  The function uses a Math.random function and pulls from an array of objects (which hold a quote and author for every obj).  A var grabs an obj from the array and outputs the quote and author to the HTML tags.  Next, I think I need to do a JS function to call the mobile menu from the hamburger icon. I'll ask the instructor if this can be done strictly in CSS.
+
+### 2200 | 97%
+I estimate that I am very close to completing this generic business Ex.  I am stuck on trying to validate whether an element has the visibility style attribute set to hidden or visible.  Depending on the result, a mobile menu will be toggled on or off.  Afterwards, all I have to do is 'nudge' pixels around to better emulate what I see from the PDF representation.  
+
+
+---
+
 ## 2022 02 21 | First 'Simple' Challenge
 Completed the First Project!!!  During this Ex, we were tasked to create a "Coming Soon" page.  It is regarded as a "simple" project.  However, I did learn a lot of interesting things while working on the page.  First, I needed to create a black "banner" above and below the main page.  I thought I should do this with margin, but that only caused the page scroll to show when the main section was larger than the page.  This was not desired.  I figured that I could add a border top and bottom of a hundred px (black) to get the desired results. Then, I could set the main section to take up the vp height.  Result: no scroll.  Second, I added the JS to the actual page.  While the code is a little confusing, I think I can understand what it is doing.  The results of the code is used in the HTML document to show "how many days are left."  The deadline is currently set to New Years Eve of 2023 (2022 12 31 2359.59).  When the time is up, the text will change to "It is here!"  
 

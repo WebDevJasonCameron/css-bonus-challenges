@@ -1,12 +1,16 @@
 @media screen and (max-width: 600px) {
 
     /* Mobile Menu*/
-    .burger-icon {
+    #burger-icon-button {
         visibility: visible;
+        background-color: #ffffff;
+        color: #000000;
     }
 
     .burger-icon:hover {
         cursor: pointer;
+        background-color: #ffffff;
+        color: #000000;
     }
 
     .main-nav {
@@ -14,7 +18,7 @@
         flex-direction: column;
     }
     .burger-menu {
-        /*visibility: hidden;*/
+        visibility: hidden;
         margin-top: 2em;
         width: 100vw;
 
@@ -25,12 +29,20 @@
         height: 4em;
     }
 
-    .burger-menu li a {
-        background-color: blue;
+    .burger-menu li a:link,
+    .burger-menu li a:active,
+    .burger-menu li a:visited
+    {
+        background-color: #fff;
+        color: #000000;
         width: 100vw;
 
         display: flex;
         justify-content: center;
+    }
+
+    .burger-menu li a:hover {
+        background-color: rgb(182, 180, 180);
     }
 
 
