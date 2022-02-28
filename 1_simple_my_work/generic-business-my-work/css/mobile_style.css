@@ -33,11 +33,16 @@
     #burger-menu li a:visited
     {
         background-color: #fff;
-        color: #000000;
+        color: #989696;
         width: 100vw;
 
         display: flex;
         justify-content: center;
+    }
+    #burger-menu li a:hover {
+        color: #ffffff;
+        background-color: #8f8f8f;
+        border-bottom: 1px solid #000000;
     }
 
     /* Articles */

@@ -1,5 +1,11 @@
 # Lesson's Learned
 
+## 2022 02 28 | Re-attacking the 2nd Ex
+Completed with the JS code I had from before.  Although, I can see there are better ways to complete this.  I'll try to implement those processes in the next Ex
+
+
+---
+
 ## 2022 02 23 | YouTube
 Watched some videos.  I found a few things that might help with the JS HB. First, ```document.querySelector(".hamburger");``` might be easier to grab elements.  Second, I don't need to create a function to place it into an eventListener. I can use an anonymous function (arrow).  Here is an example:
 ```javascript
